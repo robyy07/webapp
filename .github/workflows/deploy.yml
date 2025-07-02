@@ -38,7 +38,7 @@ jobs:
           script: |
             cd ~/webapp
             git pull origin main
-            docker pull robyy07/springboot-webapp:latest
+            docker pull robyyyy/springboot-webapp:latest
             docker-compose down
             docker-compose up -d
 
